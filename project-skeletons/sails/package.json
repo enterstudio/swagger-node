@@ -8,7 +8,7 @@
   "license": "",
   "main": "app.js",
   "dependencies": {
-    "sails": "~0.11.0",
+    "sails": "~0.12.12",
     "sails-disk": "~0.10.0",
     "rc": "~0.5.0",
     "include-all": "~0.1.3",
@@ -23,17 +23,21 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-cssmin": "~0.9.0",
-    "grunt-contrib-less": "0.11.1",
+    "grunt-contrib-less": "1.0.0",
     "grunt-contrib-coffee": "~0.10.1",
-    "swagger-sails-hook": "^0.1.0"
+    "swagger-sails-hook": "^0.1.0",
+    "snyk": "^1.85.0"
   },
-  "devDependencies":  {
+  "devDependencies": {
     "should": "^5.2.0",
     "supertest": "^0.15.0"
   },
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "swagger project test"
-  }
+    "test": "swagger project test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
