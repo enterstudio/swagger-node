@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machine > switchback > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machine > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machine > rttc > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - swagger-sails-hook > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - sails > sails-disk > waterline-criteria > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - sails > sails-disk > waterline-cursor > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
+    - sails > waterline > switchback > lodash:
+        patched: '2018-07-03T01:22:28.369Z'
