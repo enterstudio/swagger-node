@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - swagger-hapi > swagger-node-runner > swagger-tools > body-parser > debug:
+        patched: '2019-04-10T05:34:55.405Z'
+  'npm:extend:20180424':
+    - swagger-hapi > swagger-node-runner > swagger-tools > superagent > extend:
+        patched: '2019-04-10T05:34:55.405Z'
+  'npm:hoek:20180212':
+    - hapi > subtext > content > hoek:
+        patched: '2019-04-10T05:34:55.405Z'
+    - hapi > subtext > pez > content > hoek:
+        patched: '2019-04-10T05:34:55.405Z'
+  'npm:lodash:20180130':
+    - swagger-hapi > swagger-node-runner > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machine > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machine > rttc > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machine > switchback > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+    - swagger-hapi > swagger-node-runner > bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2019-04-10T05:34:55.405Z'
+  'npm:mime:20170907':
+    - swagger-hapi > swagger-node-runner > swagger-tools > superagent > mime:
+        patched: '2019-04-10T05:34:55.405Z'
+  'npm:ms:20170412':
+    - swagger-hapi > swagger-node-runner > swagger-tools > body-parser > debug > ms:
+        patched: '2019-04-10T05:34:55.405Z'
