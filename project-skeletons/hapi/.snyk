@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - swagger-hapi > swagger-node-runner > swagger-tools > body-parser > debug:
+        patched: '2021-09-04T20:13:48.756Z'
+  'npm:extend:20180424':
+    - swagger-hapi > swagger-node-runner > swagger-tools > superagent > extend:
+        patched: '2021-09-04T20:13:48.756Z'
+  'npm:mime:20170907':
+    - swagger-hapi > swagger-node-runner > swagger-tools > superagent > mime:
+        patched: '2021-09-04T20:13:48.756Z'
+  'npm:ms:20170412':
+    - swagger-hapi > swagger-node-runner > swagger-tools > body-parser > debug > ms:
+        patched: '2021-09-04T20:13:48.756Z'
